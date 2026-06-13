@@ -1,0 +1,10 @@
+:root{
+  --bg:#07102a;--card:#0f1b3a;--accent-green:#2ecc71;--accent-yellow:#f1c40f;--accent-red:#e74c3c;--text:#e6eef8;
+}
+body{margin:0;font-family:Inter,Arial;background:var(--bg);color:var(--text)}
+.app{max-width:1200px;margin:12px auto}
+.header{display:flex;justify-content:space-between;align-items:center;padding:12px}
+.nav a{color:#9fb7d8;margin-left:12px;text-decoration:none}
+.card{background:var(--card);padding:12px;border-radius:8px}
+.button{padding:10px 12px;border-radius:8px;border:none;cursor:pointer}
+.sos{background:var(--accent-red);color:white}
